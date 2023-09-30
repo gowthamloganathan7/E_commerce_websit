@@ -9,7 +9,7 @@ conn=psycopg2.connect(host = "localhost",
                       user = "postgres",
                       password = "Nlgangster@7",
                       port = 4540,
-                      database = "phonpe")
+                      database = "e_commerce")
 mycursor = conn.cursor()
 
 #================Assenment_Title============#
