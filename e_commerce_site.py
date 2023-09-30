@@ -3,7 +3,6 @@ import streamlit as st
 import psycopg2
 import re
 import random
-from streamlit_option_menu import option_menu
 # -------------CONNECTING WITH POSTGRES SQL DATABASE-------------#
 conn=psycopg2.connect(host = "localhost",
                       user = "postgres",
